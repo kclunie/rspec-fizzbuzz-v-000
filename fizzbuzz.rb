@@ -10,12 +10,3 @@ def fizzbuzz(int)
  end
 end
 
-def fizzbuzz(int)
- if int % 3 == 0 && int % 5 == 0
-  "Fizzbuzz" #this should be FizzBuzz
-  elsif int % 5 == 0
-   "Buzz"
- else if int % 3 == 0  #change to else if; you can not give a condition with 'else'
-    "Fizz" #this should be Fizz
- end
-end
